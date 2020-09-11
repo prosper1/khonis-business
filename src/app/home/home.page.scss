@@ -9,7 +9,7 @@
 }
 
 #container strong {
-  font-size: 20px;
+  font-size: 28px;
   line-height: 26px;
 }
 
@@ -17,11 +17,26 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #353459;
 
-  margin: 0;
+  margin: 0 0 10% 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+.shadow{
+  shape-outside: margin-box;
+}
+
+.graphic {
+  background:url(../../assets/love.png)
+}
+
+.mk-round{
+  border-radius: 50%;
+  background-color: #f8e2e4;
+  margin-left: 5%;
+  margin-top:5%;
 }
