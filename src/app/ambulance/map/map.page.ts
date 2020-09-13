@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+
 
 @Component({
   selector: 'app-map',
@@ -11,5 +13,8 @@ export class MapPage implements OnInit {
 
   ngOnInit() {
   }
+
+  // get location and save it to storage
+  // Update latitude and longitude for map center and user position(marker)
 
 }
